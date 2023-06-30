@@ -4,7 +4,7 @@ module.exports = {
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 2018,
+    "ecmaVersion": latest,
     "sourceType": "module"
   },
   extends: ['@react-native-community', 'airbnb-typescript', 'prettier'],

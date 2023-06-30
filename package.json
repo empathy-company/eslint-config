@@ -1,6 +1,6 @@
 {
-  "name": "@empathy-org/empathy-eslint-config",
-  "version": "1.0.2",
+  "name": "@empathy-company/eslint-config",
+  "version": "1.0.3",
   "private": false,
   "description": "ESLint configuration used by Empathy Company.",
   "main": "index.js",
@@ -40,5 +40,5 @@
   "keywords": [
     "eslint"
   ],
-  "author": "alexjrmarques"
+  "author": "docksdocks"
 }
