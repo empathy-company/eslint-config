@@ -18,12 +18,11 @@ npm i -D eslint @empathy-company/eslint-config
 
 
 2. Create a `.eslintrc.json` file extending the config:
-```
-${TYPE} = node ou node
-```
+
 ```
 {
-  "extends": "@empathy-company/eslint-config/${TYPE}"
+  "extends": "@empathy-company/eslint-config/node"
+//  "extends": "@empathy-company/eslint-config/react"
 }
 ```
 
