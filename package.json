@@ -6,7 +6,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "release": "standard-version && git push --follow-tags && npm publish"
+    "release": "git push --follow-tags && npm publish"
   },
   "dependencies": {
     "@react-native-community/eslint-config": "^3.2.0",
