@@ -1,12 +1,12 @@
 {
-  "name": "@empathy-company/eslint-config",
-  "version": "1.0.1",
+  "name": "@empathy-org/empathy-eslint-config",
+  "version": "1.0.2",
   "private": false,
   "description": "ESLint configuration used by Empathy Company.",
   "main": "index.js",
   "license": "MIT",
-  "repository": {
-    "url": "git+https://git-codecommit.us-east-1.amazonaws.com/v1/repos/eslint-config"
+  "scripts": {
+    "release": "standard-version && git push --follow-tags && npm publish"
   },
   "dependencies": {
     "@react-native-community/eslint-config": "^3.2.0",
@@ -34,10 +34,6 @@
       "optional": true
     }
   },
-  "bugs": {
-    "url": "https://github.com/empathy-company/eslint-config-rocketseat/issues"
-  },
-  "homepage": "https://github.com/empathy-company/eslint-config-rocketseat#readme",
   "devDependencies": {
     "standard-version": "^9.5.0"
   },
