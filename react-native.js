@@ -43,7 +43,7 @@ module.exports = {
         {
           endOfLine: 'auto',
           singleQuote: false,
-          trailingComma: true,
+          trailingComma: "all",
           semi: true,
         },
       ],
