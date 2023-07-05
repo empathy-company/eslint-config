@@ -3,7 +3,7 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
+  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
   overrides: [],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -12,6 +12,18 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        printWidth: 80,
+        tabWidth: 2,
+        endOfLine: 'auto',
+        singleQuote: false,
+        trailingComma: "all",
+        semi: true,
+        arrowParens: 'always',
+      },
+    ],
     // Note: you must disable the base rule as it can report incorrect errors
     'no-unused-vars': 'off',
     '@typescript-eslint/no-empty-interface': 'off', // disable rule
