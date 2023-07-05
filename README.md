@@ -12,7 +12,7 @@
 
 1. Install the dependencies
 ```
-npm i -D eslint @babel/eslint-parser @empathy-company/eslint-config
+npm i -D eslint @empathy-company/eslint-config
 ```
 
 
