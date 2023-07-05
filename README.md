@@ -11,10 +11,15 @@
 ## Setup
 
 1. Install the dependencies
+
+NPM
 ```
 npm i -D eslint @empathy-company/eslint-config
 ```
-
+YARN
+```
+yarn add -D eslint @empathy-company/eslint-config
+```
 
 
 2. Create a `.eslintrc.json` file extending the config:
