@@ -1,6 +1,6 @@
 {
   "name": "@empathy-company/eslint-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": false,
   "description": "ESLint configuration used by Empathy Company.",
   "main": "index.js",
@@ -9,6 +9,7 @@
     "release": "git push --follow-tags && npm publish"
   },
   "dependencies": {
+    "@next/eslint-plugin-next": "^13.4.8",
     "@react-native-community/eslint-config": "^3.2.0",
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
