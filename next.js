@@ -1,5 +1,5 @@
 module.exports = {
-    "parser": "@babel/eslint-parser",
+    "parser": "@typescript-eslint/parser",
     "extends": [
         "eslint:recommended",
         'plugin:@next/next/recommended',
