@@ -29,6 +29,7 @@ yarn add -D eslint @empathy-company/eslint-config
   "extends": "@empathy-company/eslint-config/node"
 //  "extends": "@empathy-company/eslint-config/react"
 //  "extends": "@empathy-company/eslint-config/react-native"
+//  "extends": "@empathy-company/eslint-config/next"
 }
 ```
 
