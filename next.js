@@ -4,6 +4,13 @@ module.exports = {
         'plugin:@next/next/recommended',
         'plugin:prettier/recommended'
     ],
+    parserOptions: {
+        ecmaFeatures: {
+            jsx: true
+        },
+        ecmaVersion: 'latest',
+        sourceType: 'module'
+    },
     rules: {
         'prettier/prettier': [
             'error',
