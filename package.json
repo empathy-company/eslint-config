@@ -1,6 +1,6 @@
 {
   "name": "@empathy-company/eslint-config",
-  "version": "1.0.9",
+  "version": "1.0.91",
   "private": false,
   "description": "ESLint configuration used by Empathy Company.",
   "main": "index.js",
