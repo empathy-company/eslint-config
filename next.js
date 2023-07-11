@@ -26,12 +26,16 @@ module.exports = {
             },
         ],
     },
+    env: {
+        browser: true,
+        node: true,
+    },
     settings: {
         react: {
-          version: 'detect',
+            version: 'detect',
         },
         'import/parsers': {
-          [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
+            [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
         },
-      }
+    }
 }
