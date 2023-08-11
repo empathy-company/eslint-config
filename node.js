@@ -22,7 +22,7 @@ module.exports = {
         singleQuote: false,
         trailingComma: "all",
         semi: true,
-        arrowParens: 'always',
+        arrowParens: 'avoid',
       },
     ],
     'no-unused-vars': 'off',
@@ -79,7 +79,6 @@ module.exports = {
     'operator-linebreak': ['error', 'before'],
     'rest-spread-spacing': ['error', 'never'],
     'space-before-blocks': 'error',
-    'space-before-function-paren': 'error',
     'template-curly-spacing': ['error', 'never'],
   },
 };
