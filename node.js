@@ -17,6 +17,7 @@ module.exports = {
       {
         printWidth: 120,
         tabWidth: 4,
+        useTabs: true,
         endOfLine: 'auto',
         singleQuote: false,
         trailingComma: "all",
