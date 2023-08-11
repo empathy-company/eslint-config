@@ -16,7 +16,7 @@ module.exports = {
       'error',
       {
         printWidth: 120,
-        tabWidth: 4,
+        tabWidth: 2,
         useTabs: true,
         endOfLine: 'auto',
         singleQuote: false,
@@ -28,7 +28,6 @@ module.exports = {
     'no-unused-vars': 'off',
     '@typescript-eslint/no-empty-interface': 'off', // disable rule
     '@typescript-eslint/no-unused-vars': 'off', //disable rule
-    indent: ['error', 'tab'],
     'linebreak-style': ['off'],
     quotes: ['error', 'double'],
     semi: ['error', 'always'],
