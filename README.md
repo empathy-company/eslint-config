@@ -22,7 +22,7 @@ yarn add -D eslint @empathy-company/eslint-config
 ```
 
 
-2. Create a `.eslintrc.json` file extending the config:
+2. Create a `.eslintrc` file extending the config:
 
 ```
 {

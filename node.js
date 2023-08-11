@@ -15,8 +15,8 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
-        printWidth: 80,
-        tabWidth: 2,
+        printWidth: 120,
+        tabWidth: 4,
         endOfLine: 'auto',
         singleQuote: false,
         trailingComma: "all",
@@ -24,7 +24,6 @@ module.exports = {
         arrowParens: 'always',
       },
     ],
-    // Note: you must disable the base rule as it can report incorrect errors
     'no-unused-vars': 'off',
     '@typescript-eslint/no-empty-interface': 'off', // disable rule
     '@typescript-eslint/no-unused-vars': 'off', //disable rule
