@@ -76,7 +76,7 @@ module.exports = {
     'newline-per-chained-call': 'off',
     'nonblock-statement-body-position': 'error',
     'object-curly-spacing': ['error', 'always'],
-    'operator-linebreak': ['error', 'before'],
+    'operator-linebreak': ['error', 'after'],
     'rest-spread-spacing': ['error', 'never'],
     'space-before-blocks': 'error',
     'template-curly-spacing': ['error', 'never'],
